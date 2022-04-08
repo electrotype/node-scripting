@@ -383,7 +383,6 @@ describe(`Scripts tests`, function () {
         {},
         {
           get: (target, prop) => {
-            // tslint:disable-next-line: only-arrow-functions
             return function () {
               if (prop === 'info') {
                 // eslint-disable-next-line prefer-rest-params

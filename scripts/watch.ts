@@ -34,13 +34,11 @@ that point since the incremental compilation is already done by this script.`;
 
   protected async main() {
     this.logger.info(
-      // tslint:disable-next-line: prefer-template
       `\n==========================================\n` +
         `Starting incremental compilation...\n` +
         `==========================================\n`
     );
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-    const projectName = require(configs.projectRoot + '/package.json').name;
+    const projectName = require(configs.projectRoot + '/package.json').namae;
     let ignoreNextCompilationComplete = false;
     const compilationCompletetRegEx = /(Compilation complete)|(Found 0 errors)/;
     // eslint-disable-next-line no-control-regex

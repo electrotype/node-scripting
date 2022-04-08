@@ -1,4 +1,3 @@
-// tslint:disable: no-console
 import { program as caporal } from '@caporal/core';
 import { globalConstants, utils } from '@villedemontreal/general-utils';
 import { assert } from 'chai';
