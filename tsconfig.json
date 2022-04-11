@@ -16,7 +16,8 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "outDir": "dist",
-    "rootDir": "."
+    "rootDir": ".",
+    "declaration": true
   },
   "include": ["./src/**/*.ts", "./scripts/**/*.ts", "./assets/**/*.ts", "./src/run.js"]
 }
